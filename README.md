@@ -24,17 +24,17 @@ This project demonstrates a complete machine learning pipeline, from data ingest
 
 The repository is organized as follows:
 
-ML-Project/
-├── .ebextensions/ # AWS Elastic Beanstalk configurations
-├── artifact/ # Serialized model artifacts
-├── artifacts/ # Additional artifacts (e.g., logs, metrics)
-├── catboost_info/ # CatBoost training logs
-├── notebook/ # Jupyter notebooks for EDA and prototyping
-├── src/ # Source code for data processing and modeling
-├── templates/ # HTML templates for Flask app
-├── .gitignore # Git ignore file
-├── README.md # Project documentation
-├── app.py # Main Flask application
-├── application.py # Alternative Flask application entry point
-├── requirements.txt # Python dependencies
-└── setup.py # Package setup script
+## ML-Project/
+-├── .ebextensions/ # AWS Elastic Beanstalk configurations
+-├── artifact/ # Serialized model artifacts
+-├── artifacts/ # Additional artifacts (e.g., logs, metrics)
+-├── catboost_info/ # CatBoost training logs
+-├── notebook/ # Jupyter notebooks for EDA and prototyping
+-├── src/ # Source code for data processing and modeling
+-├── templates/ # HTML templates for Flask app
+-├── .gitignore # Git ignore file
+-├── README.md # Project documentation
+-├── app.py # Main Flask application
+-├── application.py # Alternative Flask application entry point
+-├── requirements.txt # Python dependencies
+-└── setup.py # Package setup script
